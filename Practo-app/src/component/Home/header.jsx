@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="d-flex align-items-center">
           <div className="d-flex align-items-center me-3">
             <img
-              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/82fc7cdb-c82e-4736-8e9a-14a800d56f8d.png"
+              src=".\src\assets\icon.jpg"
               alt="MediLab logo"
               className="rounded-circle bg-primary"
               style={{ width: '40px', height: '40px' }}

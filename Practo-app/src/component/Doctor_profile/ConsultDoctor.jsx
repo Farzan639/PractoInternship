@@ -8,21 +8,21 @@ const doctors = [
     name: "Dr. Aditi Sharma",
     specialty: "Cardiologist",
     experience: "12 years",
-    image: "/images/doctors/aditi.jpg",
+    image: "./src/assets/Aditi.png",
     rating: 4.9
   },
   {
     name: "Dr. Rajesh Kumar",
     specialty: "Dermatologist",
     experience: "8 years",
-    image: "/images/doctors/rajesh.jpg",
+    image: "./src/assets/Rajesh.png",
     rating: 4.7
   },
   {
     name: "Dr. Neha Verma",
     specialty: "Pediatrician",
     experience: "10 years",
-    image: "/images/doctors/neha.jpg",
+    image: "./src/assets/Neha.png",
     rating: 4.8
   }
 ];

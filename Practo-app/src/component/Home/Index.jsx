@@ -131,19 +131,6 @@ function Home() {
           ))}
         </div>
       </div>
-
-      {/* App Download Section */}
-      <div className="bg-light py-5">
-        <div className="container text-center">
-          <h2 className="fw-bold mb-3">Get Our App</h2>
-          <p>Book tests, track reports, and consult doctors on the go</p>
-          <div className="d-flex justify-content-center gap-3 flex-wrap">
-            <img src="/images/google-play.png" alt="Google Play" height="50" />
-            <img src="/images/app-store.png" alt="App Store" height="50" />
-          </div>
-        </div>
-      </div>
-
       <Footer />
     </div>
   );

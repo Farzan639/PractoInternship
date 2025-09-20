@@ -1,0 +1,5 @@
+{
+  "scripts": {
+  "dev": "concurrently \"npm run dev --prefix Practo_Backend\" \"npm run dev --prefix Practo-app\""
+}
+}

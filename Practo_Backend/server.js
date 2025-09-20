@@ -15,7 +15,7 @@ const connectionString = process.env.MONGO_URI;
 const uploadDir = path.join(__dirname, "uploads");
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir);
 
-app.use(cors({ origin: "https://diagnostic-lab-tests-booking-app-7d.vercel.app/" }));
+app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/uploads", express.static(uploadDir));

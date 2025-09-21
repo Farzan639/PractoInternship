@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="d-flex align-items-center">
           <div className="d-flex align-items-center me-3">
             <img
-              src="./src/assets/icon.jpg"
+              src="./Practo-app/src/assets/icon.jpg"
               alt="MediLab logo"
               className="rounded-circle bg-primary"
               style={{ width: '40px', height: '40px' }}
